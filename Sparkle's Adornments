@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkles Adornments</title>
+    <!-- 1. Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 2. Use Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* 3. Apply custom font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-pink-200 via-purple-200 to-indigo-300">
+
+    <!-- Main container to center content -->
+    <div class="min-h-screen flex items-center justify-center p-4">
+
+        <!-- The content card -->
+        <div class="bg-white/90 backdrop-blur-lg w-full max-w-md p-8 sm:p-10 rounded-2xl shadow-2xl text-center">
+            
+            <!-- Business Name -->
+            <h1 class="font-playfair text-4xl sm:text-5xl font-bold text-gray-800 mb-3">
+                Sparkles Adornments
+            </h1>
+            
+            <!-- Welcome Message -->
+            <p class="text-gray-600 mb-8 text-lg">
+                Connect with us!
+            </p>
+
+            <!-- Links Container -->
+            <div class="space-y-5">
+
+                <!-- TikTok Link Button -->
+                <a href="https://www.tiktok.com/@sparkles_adornments?_r=1&_t=ZM-91KlTzrRfjM" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="group flex w-full items-center justify-center space-x-3 rounded-xl bg-gray-900 px-5 py-4 font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-gray-800 hover:shadow-xl hover:scale-105">
+                    
+                    <!-- TikTok SVG Icon -->
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.6 8.224c-.01 0-.02-.002-.031-.002h-.01a5.61 5.61 0 0 0-4.665-4.665c-.002-.01-.002-.02-.002-.031V3.5a1.5 1.5 0 0 0-1.5-1.5h-3.09a1.5 1.5 0 0 0-1.5 1.5v9.231C10.7 12.3 10.15 12 9.5 12c-2.485 0-4.5 2.015-4.5 4.5S7.015 21 9.5 21s4.5-2.015 4.5-4.5v-3.75h3.09c.01 0 .02.002.031.002h.01a5.61 5.61 0 0 0 4.665 4.665c.002.01.002.02.002.031v.019a1.5 1.5 0 0 0 1.5 1.5h3.09a1.5 1.5 0 0 0 1.5-1.5v-3.09a1.5 1.5 0 0 0-1.5-1.5h-.019c-.01-.002-.02-.002-.031-.002a5.61 5.61 0 0 0-4.665-4.665c-.002-.01-.002-.02-.002-.031V8.224Zm-1.5 8.276H20.1v3.09h-3.09a4.113 4.113 0 0 1-4.11-4.11c0-.01.002-.02.002-.031v-.01H16.5a1.5 1.5 0 0 0 1.5-1.5V9.5h3.09v3.09a4.113 4.113 0 0 1-4.11 4.11c-.01 0-.02-.002-.031-.002H16.5v.019c0 .01.002.02.002.031a4.11 4.11 0 0 1 3.588 4.091ZM9.5 19.5a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm8.59-11.32a4.113 4.113 0 0 1-4.11 4.11c-.01 0-.02-.002-.031-.002H10.5V3.5h3.09v3.09a1.5 1.5 0 0 0 1.5 1.5h.019c.01.002.02.002.031.002a4.11 4.11 0 0 1 4.11 4.11c0 .01-.002.02-.002.031v.01Z"></path>
+                    </svg>
+                    <span>Visit us on TikTok</span>
+                </a>
+
+                <!-- WhatsApp Link Button -->
+                <a href="https://wa.me/254757565388" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="group flex w-full items-center justify-center space-x-3 rounded-xl bg-green-500 px-5 py-4 font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-green-600 hover:shadow-xl hover:scale-105">
+                    
+                    <!-- WhatsApp SVG Icon -->
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.04 2C6.5 2 2 6.5 2 12.04c0 1.8.47 3.48 1.3 4.9l-1.3 4.8 4.9-1.3c1.42.83 3.1 1.3 4.9 1.3h.01c5.54 0 10.04-4.5 10.04-10.04S17.58 2 12.04 2ZM9.85 17.3c-.27.02-.7.15-1.12.09-.5-.06-1.07-.3-1.5-.66-.56-.4-1.03-.96-1.4-1.63-.38-.67-.6-1.45-.6-2.33s.36-1.68.6-2.33c.23-.65.56-1.2.93-1.66s.78-.83 1.25-1.1c.5-.27 1.03-.4 1.56-.4.58 0 1.07.12 1.48.48.4.3.7.7.9 1.15.2.45.3.9.3 1.4s-.1 1-.3 1.45c-.2.45-.5.8-.9 1.05s-.83.4-1.25.4c-.15 0-.3 0-.44-.02-.15-.02-.3-.04-.44-.07-.15-.02-.3-.06-.44-.1-.15-.04-.3-.1-.4-.15l-.3-.12c-.5-.2-.9-.5-1.2-.9s-.5-1-.5-1.5c0-.15 0-.3.03-.44.02-.15.04-.3.07-.44.02-.15.06-.3.1-.44.04-.15.1-.3.15-.4l.12-.3c.05-.1.1-.2.15-.2s.1-.15.15-.2c.2-.25.4-.4.7-.5s.5-.15.7-.15h.3c.15 0 .3 0 .44.03.15.02.3.04.44.07.15.02.3.06.44.1.15.04.3.1.4.15l.3.12c.5.2.9.5 1.2.9s.5 1 .5 1.5v.3c0 .15 0 .3-.03.44-.02-.15-.04.3-.07.44-.02.15-.06.3-.1.44-.04-.15-.1.3-.15.4l-.12.3c-.05.1-.1.2-.15.2s-.1.15-.15.2c-.2.25-.4.4-.7.5s-.5.15-.7.15h-.3c-.15 0-.3 0-.44-.03-.15-.02-.3-.04-.44-.07-.15-.02-.3-.06-.44-.1-.15-.04-.3-.1-.4-.15l-.3-.12c-.5-.2-.9-.5-1.2-.9s-.5-1-.5-1.5c0-.15 0-.3.03-.44.02-.15.04-.3.07-.44.02-.15.06-.3.1-.44.04-.15.1.3-.15.4l.12-.3c.05-.1.1-.2.15-.2s.1-.15.15-.2c.2-.25.4-.4.7-.5s.5-.15.7-.15h.3c.15 0 .3 0 .44.03.15.02.3.04.44.07.15.02.3.06.44.1.15.04.3.1.4.15l.3.12c1.4.58 2.3 1.9 2.3 3.4 0 1.9-1.5 3.4-3.4 3.4-.6 0-1.15-.15-1.6-.4l-2.7 1.3.8-2.6c-.4-.5-.6-1.1-.6-1.7 0-1.9 1.5-3.4 3.4-3.4s3.4 1.5 3.4 3.4c.01 1.9-1.5 3.4-3.4 3.4Z"></path>
+                    </svg>
+                    <span>Chat on WhatsApp</span>
+                </a>
+
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
